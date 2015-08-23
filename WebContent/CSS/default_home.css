@@ -1,0 +1,443 @@
+/*
+Design by CSS Templates For Free
+http://www.csstemplatesforfree.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	background: #FFFFFF url(../images/img01.gif) repeat-x;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+h1, h2, h3 {
+	color: #333333;
+}
+
+h2 {
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p, blockquote, ul, ol {
+	margin-bottom: 1.5em;
+	line-height: 1.8em;
+	text-align: justify;
+}
+
+
+#controls {width:980px; margin:0 auto; height:20px}
+#navigation img {cursor:pointer}
+p {
+}
+
+blockquote {
+	margin-left: 2em;
+	margin-right: 2em;
+	font-style: italic;
+}
+
+ul {
+	margin-left: 3em;
+}
+
+ul li {
+}
+
+ol {
+	margin-left: 3em;
+}
+
+ol li {
+}
+
+a {
+	text-decoration: none;
+	color: #972296;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+
+img {
+}
+
+img.left {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+/* Boxed Style */
+
+.boxed {
+}
+
+.boxed .title {
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.boxed .content {
+	padding: 20px;
+	background: url(../images/img05.gif) repeat-x;
+}
+
+/* Post */
+
+.post {
+}
+
+.post .title {
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.post .date {
+	margin-top: -25px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	text-align: right;
+	font-size: x-small;
+}
+
+.post .date .month {
+}
+
+.post .date .day {
+}
+
+.post .date .year {
+}
+
+.post .meta {
+	clear: both;
+}
+
+.post .meta p {
+	margin: 0;
+	padding: 10px 20px 40px 20px;
+	border-top: 1px dotted #CCCCCC;
+	line-height: normal;
+	font-size: x-small;
+}
+
+.post .story {
+	padding: 20px 20px 0 20px;
+	background: url(../images/img05.gif) repeat-x;
+}
+
+/* Header */
+
+#header {
+	width: 800px;
+	height: 140px;
+	margin: 2 ;
+}
+
+/* Header > Logo */
+
+#logo {
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+#logo h1 {
+	margin: 0;
+	padding: 10px 10px 10px 0px;
+	font-size: 1.8em;
+}
+
+#logo h2 {
+	margin-top: -5px;
+	padding: 5px 0px 0px 0px;
+	font-size: 1.2em;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Header > Menu */
+
+#menu {
+	float: right;
+	
+
+	
+}
+
+#menu ul {
+	margin: 0;
+	padding-top: 75px;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 24px;
+	margin-left: 7px;
+	padding: 15px;
+	background: url(../images/img02.gif) repeat-x;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+
+#menu a:hover {
+	background-image: url(../images/img04.gif);
+	color: #FFFFFF;
+}
+
+#menu .active a {
+	background-image: url(../images/img03.gif);
+	color: #FFFFFF;
+}
+
+/* Content */
+
+#content {
+	width: 860px;
+	height:400px;
+	margin: -1 auto;
+	padding-top: 30px;
+}
+
+/* Content > Main */
+
+#main {
+	float: right;
+	width: 520px;
+}
+
+/* Content > Main > Welcome */
+
+#welcome {
+}
+
+/* Content > Main > Example */
+
+#example {
+}
+
+/* Content > Sidebar */
+
+#sidebar {
+	float: left;
+	width: 150px;
+	margin: auto 3;
+}
+
+/* Content > Sidebar > Login */
+
+#login {
+}
+
+#login form {
+}
+
+#login fieldset {
+	border: none;
+}
+
+#login legend {
+	display: none;
+}
+
+#login label {
+	display: block;
+}
+
+#login input {
+	margin-bottom: 10px;
+	padding: 2px 5px;
+	border: 1px solid #972296;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+#inputtext1, #inputtext2 {
+	width: 78%;
+}
+
+#inputsubmit1 {
+	margin: 0;
+	padding: 0;
+	background: url(../images/img05.gif) repeat-x;
+}
+
+/* Content > Sidebar > Updates*/
+
+#updates {
+}
+
+#updates ul {
+	margin: 0;
+	list-style: none;
+}
+
+#updates h3 {
+	font-size: 1.0em;
+}
+
+#updates p {
+	line-height: normal;
+	font-size: .8em;
+}
+
+#updates a {
+	text-decoration: none;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 1395px;
+	height: 20px;
+	
+	padding: 30px 50px 20px 20px;
+	background: url(../images/img07.gif) repeat-x;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	line-height: normal;
+	font-size: 15;
+}
+
+#footer a {
+	text-decoration: underline;
+	color: #666666;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}
+
+/* Footer > Legal */
+
+#legal {
+}
+
+/* Footer > Links */
+
+#links {
+}
+
+
+.menugutterleft {
+        float: left;
+	padding-top: 0px;
+        height: 28px;
+}
+.menustyle {
+	float: right;
+	padding-top: 0px;
+	height: 28px;
+}
+.menustyle ul{
+	padding: 0px;
+        font: bold 12px verdana, sans-serif;
+        list-style-type: none;
+        
+        overflow: hidden;
+}
+.menustyle li{
+        display: inline;
+        margin: 0px;
+}
+.menustyle li a{
+        float: left;
+        display: block;
+        text-decoration: none;
+        margin: 0;
+        padding: 7px 15px 5px 15px; /*padding inside each tab*/
+        color: #FFFFFF;
+        background: #596B86;
+}
+.menustyle li a:hover{
+        background: #7485A0; /*background of tabs for hover state */
+	text-decoration: none;
+}
+.menustyle li a.selected{
+        background: #7485A0; /*background of tab with "selected" class assigned to its LI */
+}
+/* ######### Drop Down ULs CSS ######### */
+.submenustyle, .submenustyle ul{ /*topmost and sub ULs, respectively*/
+        font: normal 12px verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+        list-style-type: none;
+        background: url(../images/img03.gif) repeat-x ;
+        border: 1px solid #8F9DB4;
+        border-bottom-width: 0;
+        visibility: hidden;
+        z-index: 100;
+}
+.submenustyle li a{
+        display: block;
+        width: 170px; /*width of menu (not including side paddings)*/
+        color : #fff;
+        text-decoration: none;
+        padding: 4px 5px;
+        border-bottom: 1px solid #8F9DB4;
+       background: url(../images/img03.gif) repeat-x ;
+}
+* html .submenustyle li{ /*IE6 CSS hack*/
+        display: inline-block;
+        width: 150px; /*width of menu (include side paddings of LI A*/
+}
+.submenustyle li a:hover{
+       background: url(../images/img01.gif) repeat-x ;
+        color: #fff;
+	text-decoration: none;
+}
+
+
+.downarrowpointer{ /*CSS for "down" arrow image added to top menu items*/
+	padding-left: 4px;
+	border: 0;
+}
+.rightarrowpointer{ /*CSS for "right" arrow image added to drop down menu items*/
+	position: absolute;
+	padding-top: 3px;
+	left: 100px;
+	border: 0;
+}
+.ddiframeshim{
+	position: absolute;
+	z-index: 500;
+	background: transparent;
+	border-width: 0;
+	width: 0;
+	height: 0;
+	display: block;
+}

@@ -1,0 +1,41 @@
+#sidebar {
+	float: right;
+	width: 320px;
+}
+#updates {
+}
+
+#updates ul {
+	margin: 0;
+	list-style: none;
+}
+
+#updates h3 {
+	font-size: 1.0em;
+}
+
+#updates p {
+	line-height: normal;
+	font-size: .8em;
+}
+
+#updates a {
+	text-decoration: none;
+}
+
+#updates a:hover {
+	text-decoration: underline;
+	background: #ccffff;
+}
+
+#content {
+	width: 860px;
+	height:258px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.boxed .content {
+	padding: 20px;
+	background: url(../images/img05.gif) repeat-x;
+}

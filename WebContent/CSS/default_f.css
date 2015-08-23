@@ -1,0 +1,24 @@
+#footer {
+	clear: both;
+	width: 900px;
+	height: 20px;
+	
+	padding: 30px 50px 20px 20px;
+	background: url(../images/img07.gif) repeat-x;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	line-height: normal;
+	font-size: 15;
+}
+
+#footer a {
+	text-decoration: underline;
+	color: #666666;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}
